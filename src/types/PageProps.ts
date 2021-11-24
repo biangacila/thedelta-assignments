@@ -32,3 +32,9 @@ export type DealDetailProps={
     onViewMore:any,
     getStore:any,
 }
+
+export type StoreCardProps={
+    onViewMore:any,
+    Record:StoresRecord,
+    getNumberOfDeals:any,
+}
