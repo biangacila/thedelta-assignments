@@ -10,7 +10,7 @@ import {
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import { ellipse, square, triangle } from 'ionicons/icons';
-import Tab1 from './pages/Tab1';
+import DealsPage from './pages/DealsPage';
 import Tab2 from './pages/Tab2';
 import Tab3 from './pages/Tab3';
 
@@ -40,8 +40,8 @@ const App: React.FC = () => (
     <IonReactRouter>
       <IonTabs>
         <IonRouterOutlet>
-          <Route exact path="/tab1">
-            <Tab1 />
+          <Route exact path="/deals">
+            <DealsPage />
           </Route>
           <Route exact path="/tab2">
             <Tab2 />
@@ -54,7 +54,7 @@ const App: React.FC = () => (
           </Route>
         </IonRouterOutlet>
         <IonTabBar slot="bottom" className={"bottomContainer"}>
-          <IonTabButton tab="tab1" href="/tab1">
+          <IonTabButton tab="tab1" href="/deals">
             {/*<IonIcon icon={triangle} />*/}
             <IonLabel className={"buttonLinkLabel"}>Deals</IonLabel>
           </IonTabButton>

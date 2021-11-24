@@ -7,7 +7,7 @@ const Header: (props: HeaderProps) => JSX.Element=(props:HeaderProps)=>{
         <div className={"headerContainer"}>
             <div className={"headerContainerInner"}>
                 <img src={"https://www.cheapshark.com/img/twitter_logo.png"} className={"headerIcon"} />
-                <span className={"headerTitle"}>{props.Title}</span>
+                <span className={"headerTitle"}>CheapShark</span>
             </div>
         </div>
     )
