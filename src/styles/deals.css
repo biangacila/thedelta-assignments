@@ -1,0 +1,59 @@
+
+
+.dealCardBox{
+    background: #FBFBFB;
+    box-shadow: 0px 12px 24px rgba(44, 39, 56, 0.02), 0px 24px 48px rgba(44, 39, 56, 0.04);
+    border-radius: 24px;
+
+    margin: 25px;
+    margin-top: 25px;
+
+    min-height: 207px;
+    min-width: 352px;
+    padding: 25px;
+}
+.dealerTitle{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36px;
+}
+.dealPriceAmountActual{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    text-decoration-line: line-through;
+}
+.dealPriceAmountPromotion{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    /*text-decoration-line: line-through;*/
+    color:lightseagreen;
+    margin-left: 15px;
+}
+.dealPriceBox{
+    margin-top: 10px;
+}
+.dealViewMoreBox{
+    background: #FBFBFB;
+    border: 1px solid #2C2738;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px rgba(44, 39, 56, 0.0001), 0px 4px 8px rgba(44, 39, 56, 0.08);
+    border-radius: 6px;
+
+    height: 48px;
+    width: 140px;
+    left: 0px;
+    top: 0px;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 15px;
+}
