@@ -1,0 +1,37 @@
+
+.headerContainer{
+    bottom: 91.01%;
+    background: #FFFFFF;
+    box-shadow: 0px -3px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 30px 30px;
+    height: 74px;
+    min-width: 375px;
+    left: 0px;
+    top: -1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerContainerInner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.headerIcon{
+    height: 26px;
+    width: 26px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+}
+.headerTitle{
+    font-family: IBM Plex Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #000000;
+    margin-left: 10px;
+}
