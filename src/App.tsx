@@ -11,6 +11,7 @@ import {
 import { IonReactRouter } from '@ionic/react-router';
 import { ellipse, square, triangle } from 'ionicons/icons';
 import DealsPage from './pages/DealsPage';
+import StoresPage from "./pages/StoresPage";
 import Tab2 from './pages/Tab2';
 import Tab3 from './pages/Tab3';
 
@@ -46,8 +47,8 @@ const App: React.FC = () => (
           <Route exact path="/tab2">
             <Tab2 />
           </Route>
-          <Route path="/tab3">
-            <Tab3 />
+          <Route path="/stores">
+            <StoresPage />
           </Route>
           <Route exact path="/">
             <Redirect to="/tab1" />
@@ -62,7 +63,7 @@ const App: React.FC = () => (
             {/*<IonIcon icon={ellipse} />*/}
             <IonLabel className={"buttonLinkLabel"}>Games</IonLabel>
           </IonTabButton>
-          <IonTabButton tab="tab3" href="/tab3">
+          <IonTabButton tab="tab3" href="/stores">
             {/*<IonIcon icon={square} />*/}
             <IonLabel className={"buttonLinkLabel"}>Stores</IonLabel>
           </IonTabButton>
