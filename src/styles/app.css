@@ -1,0 +1,17 @@
+
+
+.buttonLinkLabel{
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 1.5px;
+    text-align: left;
+}
+.bottomContainer{
+    background: #FFFFFF;
+    box-shadow: 0px -3px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 30px 30px;
+    /*transform: rotate(-180deg);*/
+}
