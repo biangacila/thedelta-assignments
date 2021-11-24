@@ -1,4 +1,4 @@
-import {DealsRecord} from "./Models";
+import {DealsRecord, StoresRecord} from "./Models";
 
 export type OptionsProps={
     Key:string,
@@ -21,5 +21,14 @@ export type SelectionBoxFilterProps={
 
 export type DealCardProps={
     onViewMore:any,
-    Record:DealsRecord
+    Record:DealsRecord,
+    getStore:any,
+}
+export type DealDetailProps={
+    Record:DealsRecord,
+    OtherDeals:DealsRecord[],
+    Store:StoresRecord,
+    goBack:any,
+    onViewMore:any,
+    getStore:any,
 }

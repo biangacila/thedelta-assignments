@@ -27,6 +27,14 @@
     line-height: 21px;
     text-decoration-line: line-through;
 }
+.dealPriceAmountActualWithNoneLine{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    /*text-decoration-line: line-through;*/
+}
 .dealPriceAmountPromotion{
     font-family: IBM Plex Sans;
     font-style: normal;
@@ -36,6 +44,14 @@
     /*text-decoration-line: line-through;*/
     color:lightseagreen;
     margin-left: 15px;
+}
+.dealPriceAmountSavings{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 0px;
+    margin-top: 10px;
 }
 .dealPriceBox{
     margin-top: 10px;
@@ -56,4 +72,98 @@
     justify-content: center;
     display: flex;
     margin-top: 15px;
+    cursor: pointer;
+}
+.dealCardRectangle{
+    min-height: 82.53870391845703px;
+    min-width: 337px;
+
+    margin-top: 15px;
+    border-radius: 0px;
+    background: #F8F8F8;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+
+
+}
+.dealCardRectangleLabel{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    margin-left: 18px;
+    color: #000000;
+
+}
+.cardImageBox{
+    min-height: 258.9907531738281px;
+    min-width: 335.4398193359375px;
+    margin-left: 19.52001953125px;
+    margin-top: 15px;
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+    background-color:black;
+}
+.cardImage{
+    resize: both;
+}
+
+.cardOtherDealsGame{
+    min-height: 83px;
+    min-width: 325px;
+    /*margin-left: 25px;*/
+    margin-top: 15px;
+    border-radius: 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex:1;
+}
+.cardOtherDealsGameLabel{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 31px;
+    margin-left: 18px;
+    color: #3880ff;
+}
+
+.cardOtherDealsBox{
+    min-height: 33px;
+    min-width: 306px;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: nullpx;
+}
+.backIcon{
+    size: 50px;
+    color:red;
+    min-height: 35px;
+    min-width: 35px;
+    cursor: pointer;
+}
+.backText{
+    color:red;
+    font-size: 35px;
+    margin-left: 25px;
+    font-weight: bold;
+}
+.backBox{
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between;*/
+    align-items: center;
+    margin-bottom: 25px;
+}
+.fetchingData{
+    color: red;
+    text-align: center;
+    font-size: 28px;
 }

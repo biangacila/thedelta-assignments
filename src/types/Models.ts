@@ -1,7 +1,17 @@
 
+export type StoreImage={
+    "banner": string,
+    "logo": string,
+    "icon": string
+}
+export type StoresRecord={
+    "storeID": string,
+    "storeName": string,
+    "isActive": number,
+    "images": StoreImage
+}
 
 export type DealsRecord={
-
     "internalName": string,
     "title": string,
     "metacriticLink": string,
