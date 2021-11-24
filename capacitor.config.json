@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "thedelta-assignments",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}

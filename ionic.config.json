@@ -1,0 +1,7 @@
+{
+  "name": "thedelta-assignments",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
