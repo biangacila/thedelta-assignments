@@ -1,0 +1,19 @@
+
+
+.comingSoonBox{
+    min-width: 80%;
+    max-width: 80%;
+    min-height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 45%;
+    background: black;
+    align-self:center ;
+    margin-top: 100px;
+}
+.comingSoonText{
+    color: floralwhite;
+    font-size: 45px;
+}

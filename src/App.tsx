@@ -12,7 +12,7 @@ import { IonReactRouter } from '@ionic/react-router';
 import { ellipse, square, triangle } from 'ionicons/icons';
 import DealsPage from './pages/DealsPage';
 import StoresPage from "./pages/StoresPage";
-import Tab2 from './pages/Tab2';
+import GamesPage from './pages/GamesPage';
 import Tab3 from './pages/Tab3';
 
 /* Core CSS required for Ionic components to work properly */
@@ -44,8 +44,8 @@ const App: React.FC = () => (
           <Route exact path="/deals">
             <DealsPage />
           </Route>
-          <Route exact path="/tab2">
-            <Tab2 />
+          <Route exact path="/games">
+            <GamesPage />
           </Route>
           <Route path="/stores">
             <StoresPage />
@@ -59,7 +59,7 @@ const App: React.FC = () => (
             {/*<IonIcon icon={triangle} />*/}
             <IonLabel className={"buttonLinkLabel"}>Deals</IonLabel>
           </IonTabButton>
-          <IonTabButton tab="tab2" href="/tab2">
+          <IonTabButton tab="tab2" href="/games">
             {/*<IonIcon icon={ellipse} />*/}
             <IonLabel className={"buttonLinkLabel"}>Games</IonLabel>
           </IonTabButton>
