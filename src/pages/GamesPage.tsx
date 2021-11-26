@@ -3,6 +3,7 @@ import PageTitle from "../components/Common/PageTitle";
 import SearchBar from "../components/Common/SearchBar";
 import {IonContent, IonPage } from "@ionic/react";
 import '../styles/games.css';
+import GameButton from "../components/Games/Button";
 
 
 const GamesPage: React.FC = () => {
@@ -20,6 +21,8 @@ const GamesPage: React.FC = () => {
                     <div className={"comingSoonBox"}>
                         <span className={"comingSoonText"}>Coming Soon!</span>
                     </div>
+
+                    <GameButton label={"Click me please"}/>
 
                 </div>
             </IonContent>
